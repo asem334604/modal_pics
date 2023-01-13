@@ -1,0 +1,46 @@
+.alert_zone {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.alert_content {
+    width: 30vw;
+    text-align: end;
+    position: fixed;
+    left: 35vw;
+    top: 20vh;
+    z-index: 10;
+}
+
+.alert_content span {
+    background-color: white;
+    padding: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.alert_content img {
+    width: 100%;
+    margin-top: -18px;
+}
+
+.hide {
+    display: none;
+}
+
+.img_list {
+    display: flex;
+    gap: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.img_list img {
+    width: 80px;
+    height: 80px;
+}
